@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single" android:id="@+id/grp1">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_speakers"
+            android:icon="@drawable/ic_person_black"
+            android:title="Speakers" />
+        <item
+            android:id="@+id/nav_organisation"
+            android:icon="@drawable/ic_domain_black"
+            android:title="Organization" />
+        <item
+            android:id="@+id/nav_guideline"
+            android:icon="@drawable/ic_help"
+            android:title="Author Guidelines" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_event_black"
+            android:title="Events" />
+        <!--<item
+            android:id="@+id/nav_timeline"
+            android:icon="@drawable/ic_timeline_black"
+            android:title="Timeline" />-->
+        <item
+            android:id="@+id/nav_register"
+            android:icon="@drawable/ic_account_balance_wallet_black"
+            android:title="Register" />
+    </group>
+
+    <item android:title="Commitee">
+        <menu>
+            <group  android:checkableBehavior="single" android:id="@+id/grp2">
+                <item
+                    android:id="@+id/nav_organizer"
+                    android:title="Organizers"/>
+                <item
+                    android:id="@+id/nav_honorary"
+                    android:title="Honorary Chair"/>
+                <item
+                    android:id="@+id/nav_conference"
+                    android:title="Conference Chair"/>
+                <item
+                    android:id="@+id/nav_organizing"
+                    android:title="Organizing Chair"/>
+                <item
+                    android:id="@+id/nav_general_chair"
+                    android:title="General Chair"/>
+                <item
+                    android:id="@+id/nav_co_general_chair"
+                    android:title="Co-General Chair"/>
+                <item
+                    android:id="@+id/nav_advisory_commitee"
+                    android:title="Advisory Commitee"/>
+                <item
+                    android:id="@+id/nav_technical_commitee"
+                    android:title="Technical Commitee"/>
+                <!--<item
+                    android:id="@+id/nav_track_chair"
+                    android:title="Track Chair"/>-->
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="More">
+        <menu>
+            <group  android:checkableBehavior="single" android:id="@+id/grp3">
+                <item
+                    android:id="@+id/nav_settings"
+                    android:icon="@drawable/ic_settings_black"
+                    android:title="Settings"/>
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_share_black"
+                    android:title="Share" />
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/ic_info_black"
+                    android:title="About" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
